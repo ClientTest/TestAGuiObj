@@ -1,0 +1,18 @@
+#pragma once
+#include "WinLib/AGui/AGuiOperator.h"
+
+
+enum OPERATE_TYPE
+{
+	OPERATE_TYPE_ZERO = 0	,
+	OPERATE_TYPE_ONE,
+	OPERATE_TYPE_TWO,
+	OPERATE_TYPE_THREE,
+	OPERATE_TYPE_FOUR,
+	OPERATE_TYPE_FIVE,
+	OPERATE_TYPE_SIX,
+	OPERATE_TYPE_SEVEN,
+	OPERATE_TYPE_EIGHT,
+};
+
+void TestAguiOperatorMain();
